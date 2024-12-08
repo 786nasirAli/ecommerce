@@ -15,7 +15,7 @@ const Navbar = () => {
       
 <div className="flex space-x-8">
   <Link href="/" className="text-black font-medium">Home</Link>
-  <Link href="/shop" className="text-black font-medium">Shop</Link>
+  <Link href="/Shop" className="text-black font-medium">Shop</Link>
   <Link href="/about" className="text-black font-medium">About</Link>
   <Link href="/contact" className="text-black font-medium">Contact</Link>
 </div>
