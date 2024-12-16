@@ -72,11 +72,11 @@ export default function Cart() {
 
             <ul className="flex justify-center text-center gap-4 pb-4">
               <li>Subtota</li>
-              <li>s. 250&lsquo;000.00</li>
+              <li>s. 250,000.00</li>
             </ul>
             <ul className="flex justify-center text-center gap-4 pb-6">
               <li>Total</li>
-              <li className="text-[#B88E2F]">Rs. 250&lsquo;000.00</li>
+              <li className="text-[#B88E2F]">Rs. 250,000.00</li>
             </ul>
             <button className="bg-whitw justify-center text-center px-10 items-center text-black border-2 border-black px-4 py-2 rounded-lg">
               Check Out

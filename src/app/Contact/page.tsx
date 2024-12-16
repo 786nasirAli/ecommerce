@@ -42,7 +42,7 @@ export default function Contact() {
         <h1 className="font-bold text-3xl">Get In Touch With Us</h1>
         <ul>
           <li>
-            For More Information About Our Product & Services. Please Feel Free
+            For More Information About Our Product &amp; Services. Please Feel Free
             To Drop Us
           </li>
           <li>

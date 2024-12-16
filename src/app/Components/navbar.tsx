@@ -1,52 +1,55 @@
-"use client"
-import { MdOutlinePersonAddAlt1 } from "react-icons/md";
-import { FiSearch } from "react-icons/fi";
-import { AiOutlineHeart } from "react-icons/ai";
-import { HiOutlineShoppingCart } from "react-icons/hi";
-
-import React from 'react';
-import 'tailwindcss/tailwind.css';
-import Link from "next/link";
+import Link from "next/link"; // Already imported
 
 const Navbar = () => {
     return (
-        <nav className="bg-yellow-100 py-4">
-  <div className="flex justify-between items-center px-5 md:px-10 py-4 bg-yellow-100">
-
-    {/* Left Side - Links */}
-    <div className="flex space-x-8 md:flex-row flex-col md:space-x-8 space-y-4 md:space-y-0">
-      <Link href="/" className="text-black font-medium">Home</Link>
-      <Link href="/Shop" className="text-black font-medium">Shop</Link>
-      <Link href="/Cart" className="text-black font-medium">About</Link>
-      <Link href="/Contact" className="text-black font-medium">Contact</Link>
-    </div>
-
-    {/* Right Side - Icons */}
-    <div className="flex space-x-6 items-center">
-      <a href="#" className="text-black text-2xl"><MdOutlinePersonAddAlt1 /></a>
-      <a href="#" className="text-black text-2xl"><FiSearch /></a>
-      <a href="#" className="text-black text-2xl"><AiOutlineHeart /></a>
-      <a href="#" className="text-black text-2xl"><HiOutlineShoppingCart /></a>
-    </div>
-
-    {/* Mobile Menu Toggle */}
-    <div className="md:hidden flex items-center">
-      <button className="text-black text-2xl">
-        {/* Add a hamburger icon or menu toggle functionality */}
-        &#9776;
-      </button>
-    </div>
-  </div>
-
-  {/* Mobile Menu (Hidden on medium and larger screens) */}
-  <div className="md:hidden flex flex-col items-center space-y-4 mt-4">
-    <Link href="/" className="text-black font-medium">Home</Link>
-    <Link href="/Shop" className="text-black font-medium">Shop</Link>
-    <Link href="/Cart" className="text-black font-medium">About</Link>
-    <Link href="/Contact" className="text-black font-medium">Contact</Link>
-  </div>
-</nav>
-
+        <div>
+            <div className="flex overflow-hidden flex-col bg-white">
+                <nav
+                    className="px-4 sm:px-8 md:px-16 lg:px-20 py-6 sm:py-9 w-full bg-amber-100"
+                    aria-label="Main navigation"
+                >
+                    <div className="flex flex-col sm:flex-row gap-5">
+                        <div className="flex flex-col w-full sm:w-[64%]">
+                            <div className="flex flex-row sm:flex-row gap-4 sm:gap-5 justify-between self-stretch my-auto text-sm sm:text-base font-medium text-black">
+                                <Link
+                                    href="/"
+                                    className="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors duration-200"
+                                >
+                                    Home
+                                </Link>
+                                <Link
+                                    href="/shop"
+                                    className="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors duration-200"
+                                >
+                                    Shop
+                                </Link>
+                                <Link
+                                    href="/about"
+                                    className="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors duration-200"
+                                >
+                                    About
+                                </Link>
+                                <Link
+                                    href="/contact"
+                                    className="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors duration-200"
+                                >
+                                    Contact
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="flex justify-center sm:justify-start w-full sm:w-[36%]">
+                            <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2fcffb35dbc9faa0bad78c86778598d525fab36eb1f3e61123c7105e0b5fd2f8?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                                alt="Company logo"
+                                className="object-contain w-[180px] sm:w-[247px] aspect-[8.85]"
+                            />
+                        </div>
+                    </div>
+                </nav>
+                {/* Rest of the component */}
+            </div>
+        </div>
     );
 };
 

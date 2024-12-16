@@ -2,9 +2,9 @@ import React from "react";
 import { VscSettings } from "react-icons/vsc";
 import { BsGridFill } from "react-icons/bs";
 import { CgDisplayFullwidth } from "react-icons/cg";
-import { RxDividerVertical } from "react-icons/rx";
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function page() {
   return (
@@ -84,13 +84,13 @@ export default function page() {
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c1-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -102,13 +102,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c2-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -120,13 +120,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c3-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -138,13 +138,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c4-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -156,13 +156,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c5-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -174,13 +174,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c6-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -192,13 +192,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c7-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -210,13 +210,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c8-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -232,13 +232,13 @@ export default function page() {
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c9-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -250,13 +250,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c10-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -268,13 +268,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="11.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -286,13 +286,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c12-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -304,13 +304,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c18-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -322,13 +322,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c14-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -340,13 +340,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="16.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -358,13 +358,13 @@ export default function page() {
         </div>
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a className="block relative h-48 rounded overflow-hidden">
+        <Link className="block relative h-48 rounded overflow-hidden" href={""}>
           <img
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c19-removebg-preview.png"
           />
-        </a>
+        </Link>
         <div className="mt-4">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             CATEGORY

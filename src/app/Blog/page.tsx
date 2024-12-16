@@ -1,5 +1,5 @@
+import Link from 'next/link'
 import React from 'react'
-
 export default function page() {
   return (
     <div>
@@ -23,9 +23,9 @@ export default function page() {
         aria-label="Breadcrumb"
         className="flex items-center gap-1.5 text-base"
       >
-        <a href="#" className="font-medium hover:underline">
+        <Link href="#" className="font-medium hover:underline">
           Home
-        </a>
+        </Link>
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
@@ -104,33 +104,33 @@ export default function page() {
               <h2 className="text-2xl font-medium text-black">Categories</h2>
               <ul className="flex flex-col gap-6">
                 <li className="flex justify-between text-neutral-400">
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Crafts
-                  </a>
+                  </Link>
                   <span>2</span>
                 </li>
                 <li className="flex justify-between text-neutral-400">
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Design
-                  </a>
+                  </Link>
                   <span>8</span>
                 </li>
                 <li className="flex justify-between text-neutral-400">
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Handmade
-                  </a>
+                  </Link>
                   <span>7</span>
                 </li>
                 <li className="flex justify-between text-neutral-400">
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Interior
-                  </a>
+                  </Link>
                   <span>1</span>
                 </li>
                 <li className="flex justify-between text-neutral-400">
-                  <a href="#" className="hover:underline">
+                  <Link href="#" className="hover:underline">
                     Wood
-                  </a>
+                  </Link>
                   <span>6</span>
                 </li>
               </ul>
@@ -152,13 +152,13 @@ export default function page() {
               mauris vitae ultricies leo integer malesuada nunc. In nulla
               posuere sollicitudin aliquam ultrices.
             </p>
-            <a
+            <Link
               href="#"
               className="inline-flex items-center gap-2 text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             >
               Read more
               <div className="w-[77px] h-px bg-black" />
-            </a>
+            </Link>
           </article>
         </div>
         <aside className="md:col-span-4">
@@ -175,9 +175,9 @@ export default function page() {
                   className="w-20 h-20 rounded-xl object-cover"
                 />
                 <div className="flex flex-col justify-center">
-                  <a href="#" className="text-sm text-black hover:underline">
+                  <Link href="#" className="text-sm text-black hover:underline">
                     Going all-in with millennial design
-                  </a>
+                  </Link>
                   <time
                     dateTime="2022-08-03"
                     className="text-xs text-neutral-400 mt-1.5"
@@ -262,36 +262,36 @@ export default function page() {
             </h4>
             <ul className="flex flex-col gap-4">
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Shop
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -301,28 +301,28 @@ export default function page() {
             </h4>
             <ul className="flex flex-col gap-4">
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Payment Options
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Returns
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-base text-black hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Privacy Policies
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

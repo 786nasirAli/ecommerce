@@ -1,5 +1,6 @@
-import Image from "next/image";
-import Contact from "./Contact/page";
+import Link from "next/link";
+
+Link
 
 
 export default function Home() {
@@ -222,12 +223,12 @@ export default function Home() {
         <div className="relative text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-4">Our Instagram</h2>
           <p className="text-xl mb-8">Follow our store on Instagram</p>
-          <a
+          <Link
             href="#"
             className="inline-block px-12 py-4 bg-red-50 rounded-full hover:bg-red-100 focus:ring-2 focus:ring-black focus:outline-none transition-colors"
           >
             Follow Us
-          </a>
+          </Link>
         </div>
       </section>
     </main>
@@ -242,36 +243,36 @@ export default function Home() {
           <h3 className="text-neutral-400 mb-8">Links</h3>
           <ul className="space-y-4">
             <li>
-              <a
+              <Link
                 href="/"
                 className="hover:underline focus:ring-2 focus:ring-black focus:outline-none"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/shop"
                 className="hover:underline focus:ring-2 focus:ring-black focus:outline-none"
               >
                 Shop
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/about"
                 className="hover:underline focus:ring-2 focus:ring-black focus:outline-none"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/contact"
                 className="hover:underline focus:ring-2 focus:ring-black focus:outline-none"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -279,28 +280,28 @@ export default function Home() {
           <h3 className="text-neutral-400 mb-8">Help</h3>
           <ul className="space-y-4">
             <li>
-              <a
+              <Link
                 href="#"
                 className="hover:underline focus:ring-2 focus:ring-black focus:outline-none"
               >
                 Payment Options
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="hover:underline focus:ring-2 focus:ring-black focus:outline-none"
               >
                 Returns
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#"
                 className="hover:underline focus:ring-2 focus:ring-black focus:outline-none"
               >
                 Privacy Policies
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

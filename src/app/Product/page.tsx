@@ -1,32 +1,32 @@
 "use client"
+import Link from 'next/link'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-  
   <nav
     className="flex gap-3.5 items-center px-20 py-8 mt-3.5 text-base bg-white text-neutral-400 max-md:px-5"
     aria-label="Breadcrumb"
   >
-    <a
+    <Link
       href="#"
       className="self-stretch my-auto hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
     >
       Home
-    </a>
+    </Link>
     <img
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
       alt=""
       className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
     />
-    <a
+    <Link
       href="#"
       className="self-stretch my-auto hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
     >
       Shop
-    </a>
+    </Link>
     <img
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
@@ -173,40 +173,40 @@ export default function page() {
                   :
                 </span>
                 <div className="flex gap-6">
-                  <a href="#" aria-label="Share on Facebook">
+                  <Link href="#" aria-label="Share on Facebook">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/629ecd29b6e1311788a917840a9db258106da010af82b53429c41a97f3d3eefe?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                       alt=""
                       className="object-contain shrink-0 self-start mt-1 w-5 aspect-square"
                     />
-                  </a>
-                  <a href="#" aria-label="Share on LinkedIn">
+                  </Link>
+                  <Link href="#" aria-label="Share on LinkedIn">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/bd126b32a2490780bdbd7b6c47a37596813a2a663890cc8d3c1c852a5ce81336?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                       alt=""
                       className="object-contain shrink-0 my-auto w-5 aspect-square"
                     />
-                  </a>
-                  <a href="#" aria-label="Share on Twitter">
+                  </Link>
+                  <Link href="#" aria-label="Share on Twitter">
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac547bd4addefd8e4b2d50f2cd114a8157c1961189437cc9486cc350f82eadb2?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                       alt=""
                       className="object-contain shrink-0 aspect-square w-[25px]"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
-              <a href="#" aria-label="Share on Instagram">
+              <Link href="#" aria-label="Share on Instagram">
                 <img
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/74103b59eddb809277f2f1c90b0f6fe6242321fb50015d603656eb0cb18ded6d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                   alt=""
                   className="object-contain shrink-0 aspect-[0.81] w-[25px]"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@ export default function page() {
       className="mt-9 text-base text-neutral-400 max-md:max-w-full"
     >
       <p>
-        Embodying the raw, wayward spirit of rock 'n' roll, the Kilburn portable
+        Embodying the raw, wayward spirit of rock &apos;n&apos; roll, the Kilburn portable
         active stereo speaker takes the unmistakable look and sound of Marshall,
         unplugs the chords, and takes the show on the road.
       </p>
@@ -348,54 +348,54 @@ export default function page() {
       </address>
       <nav className="flex flex-col items-start text-base font-medium text-black whitespace-nowrap">
         <h2 className="text-neutral-400">Links</h2>
-        <a
+        <Link
           href="#"
           className="mt-14 hover:underline focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:mt-10"
         >
           Home
-        </a>
-        <a
+        </Link>
+        <Link
           href="#"
           className="mt-12 hover:underline focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:mt-10"
         >
           Shop
-        </a>
-        <a
+        </Link>
+        <Link
           href="#"
           className="mt-12 hover:underline focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:mt-10"
         >
           About
-        </a>
-        <a
+        </Link>
+        <Link
           href="#"
           className="self-stretch mt-11 hover:underline focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:mt-10"
         >
           Contact
-        </a>
+        </Link>
       </nav>
       <div className="flex-auto self-start max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
           <nav className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow items-start text-base font-medium text-black max-md:mt-10">
               <h2 className="text-neutral-400">Help</h2>
-              <a
+              <Link
                 href="#"
                 className="self-stretch mt-14 hover:underline focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:mt-10"
               >
                 Payment Options
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="mt-12 hover:underline focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:mt-10"
               >
                 Returns
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="mt-11 hover:underline focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 max-md:mt-10"
               >
                 Privacy Policies
-              </a>
+              </Link>
             </div>
           </nav>
           <div className="flex flex-col ml-5 w-[67%] max-md:ml-0 max-md:w-full">

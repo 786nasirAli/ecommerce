@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function page() {
@@ -45,12 +46,12 @@ export default function page() {
             >
               Log In
             </button>
-            <a
+            <Link
               href="#"
               className="text-sm text-blue-500 underline"
             >
               Lost Your Password?
-            </a>
+            </Link>
           </div>
         </form>
       </div>
@@ -72,7 +73,7 @@ export default function page() {
           </p>
           <p className="mt-2 text-sm">
             Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our
-            <a href="#" className="font-semibold text-blue-500 underline">privacy policy</a>.
+            <Link href="#" className="font-semibold text-blue-500 underline">privacy policy</Link>.
           </p>
           <button
             type="submit"
