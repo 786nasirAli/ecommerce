@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-Link
+import Image from "next/image";
 
 
 export default function Home() {
@@ -24,7 +23,7 @@ export default function Home() {
             <div className="h-0.5 w-[121px] border-2 border-black mx-auto md:mx-0 mt-4" />
           </div>
           <div className="w-full md:w-[60%]">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/93ae98182372d251b8b8bf656cf09d2c413b34dd0aea54be646b875e07230854?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Rocket single seater showcase"
@@ -38,7 +37,7 @@ export default function Home() {
         aria-label="Featured products"
       >
         <div className="relative h-[400px] md:h-[562px] overflow-hidden rounded-lg">
-          <img
+          <Image
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d64526cd94735eee099f27f3870260f4fe12fb1e3890cb1918b5118bd9e34d4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
             alt="Side table showcase"
@@ -49,7 +48,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="relative h-[400px] md:h-[562px] overflow-hidden rounded-lg">
-          <img
+          <Image
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/258d1aa85266cd83ce992f18b2358cfd640f5744276e15884e4ef6feba63fad1?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
             alt="Side table collection"
@@ -75,7 +74,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <article className="product-card">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/5a077f92fd46575a030faeed1a15e49321589598aaa57f7b9d014c3e0e8de828?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Trenton modular sofa"
@@ -85,7 +84,7 @@ export default function Home() {
             <p className="text-xl font-medium">Rs. 25,000.00</p>
           </article>
           <article className="product-card">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/43f827a16b96cc493c71f16a8bed4d9b4e559c569296a38f33bb59d52de4f4f0?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Granite dining set"
@@ -95,7 +94,7 @@ export default function Home() {
             <p className="text-xl font-medium">Rs. 25,000.00</p>
           </article>
           <article className="product-card">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/0daa4f02e085c7e050b601337521698dafe24a3690868f748f74a979daac7c1d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Outdoor bar set"
@@ -105,7 +104,7 @@ export default function Home() {
             <p className="text-xl font-medium">Rs. 25,000.00</p>
           </article>
           <article className="product-card">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/98ba6cbfeda5cc022b59ca90b6963265f350d88d9b5c0875da2c405d6d7e843c?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Console with mirror"
@@ -128,7 +127,7 @@ export default function Home() {
       >
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="w-full md:w-[70%]">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/fcdd60e9dd000bce1d7de9efb2d9cdc17d9f3b2f5273ef26766160eb23e7fd04?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Asgaard sofa"
@@ -153,7 +152,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <article className="blog-card">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/8baac812f77faeacbd42fa49cddd58a1dac730b0dca25c877ab8db6b59e97bad?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Blog post about millennial design"
@@ -169,7 +168,7 @@ export default function Home() {
             </div>
           </article>
           <article className="blog-card">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f3819f49e6c560d81dfb59e2b7ef37905ad8eae74330319cf72b9e57043942d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Blog post about design trends"
@@ -187,7 +186,7 @@ export default function Home() {
             </div>
           </article>
           <article className="blog-card">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa6bd9362f70c97309e5e8250f89e4fb88e9d962ffc074b94d347b389beb5954?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Blog post about interior design"
@@ -214,7 +213,7 @@ export default function Home() {
         className="relative h-[450px] flex items-center justify-center px-4 md:px-20"
         aria-label="Instagram section"
       >
-        <img
+        <Image
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/dab90e2bfd51c683fb6dd7e96c8640e7918a6a68636631165047cc3ba8ef4b7d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
           alt=""

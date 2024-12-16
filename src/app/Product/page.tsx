@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
 
 export default function page() {
   return (
@@ -15,7 +16,7 @@ export default function page() {
     >
       Home
     </Link>
-    <img
+    <Image
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
       alt=""
@@ -27,7 +28,7 @@ export default function page() {
     >
       Shop
     </Link>
-    <img
+    <Image
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
       alt=""
@@ -45,7 +46,7 @@ export default function page() {
     <div className="self-center w-full max-w-[1241px] max-md:max-w-full">
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-          <img
+          <Image
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/219fef56aee837c5804022740f4acce9430e35e81f9e83bbbb7ec919233c0777?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
             alt="Asgaard sofa main product image"
@@ -59,7 +60,7 @@ export default function page() {
               Rs. 250,000.00
             </div>
             <div className="flex gap-5 items-center mt-2.5 text-sm text-neutral-400">
-              <img
+              <Image
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b716153d96851be343bafc84fd9ddc859debe5a756855bb838c029e08b61309?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                 alt="5 star rating"
@@ -174,7 +175,7 @@ export default function page() {
                 </span>
                 <div className="flex gap-6">
                   <Link href="#" aria-label="Share on Facebook">
-                    <img
+                    <Image
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/629ecd29b6e1311788a917840a9db258106da010af82b53429c41a97f3d3eefe?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                       alt=""
@@ -182,7 +183,7 @@ export default function page() {
                     />
                   </Link>
                   <Link href="#" aria-label="Share on LinkedIn">
-                    <img
+                    <Image
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/bd126b32a2490780bdbd7b6c47a37596813a2a663890cc8d3c1c852a5ce81336?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                       alt=""
@@ -190,7 +191,7 @@ export default function page() {
                     />
                   </Link>
                   <Link href="#" aria-label="Share on Twitter">
-                    <img
+                    <Image
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac547bd4addefd8e4b2d50f2cd114a8157c1961189437cc9486cc350f82eadb2?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                       alt=""
@@ -200,7 +201,7 @@ export default function page() {
                 </div>
               </div>
               <Link href="#" aria-label="Share on Instagram">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/74103b59eddb809277f2f1c90b0f6fe6242321fb50015d603656eb0cb18ded6d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                   alt=""
@@ -262,13 +263,13 @@ export default function page() {
     </div>
     <div className="mt-11 w-full max-w-[1239px] max-md:mt-10 max-md:max-w-full">
       <div className="flex gap-5 max-md:flex-col">
-        <img
+        <Image
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/69cbd14de16cbcd9c46f124f640bc4f76db0b620544f981ecfd2a7b24c99a151?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
           alt="Product detail image 1"
           className="object-contain w-[50%] rounded-none aspect-[1.74] max-md:mt-7 max-md:w-full"
         />
-        <img
+        <Image
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6bde0de39d7b7cfe4a083430a912eecded21f029872d011e19531d8d88c8871?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
           alt="Product detail image 2"
@@ -284,7 +285,7 @@ export default function page() {
       <div className="flex gap-5 max-md:flex-col">
         <article className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col items-start text-black max-md:mt-8">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/5a077f92fd46575a030faeed1a15e49321589598aaa57f7b9d014c3e0e8de828?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Trenton modular sofa_3"
@@ -296,7 +297,7 @@ export default function page() {
         </article>
         <article className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow items-start text-black max-md:mt-8">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/43f827a16b96cc493c71f16a8bed4d9b4e559c569296a38f33bb59d52de4f4f0?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Granite dining table with dining chair"
@@ -310,7 +311,7 @@ export default function page() {
         </article>
         <article className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow items-start text-black max-md:mt-8">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/0daa4f02e085c7e050b601337521698dafe24a3690868f748f74a979daac7c1d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Outdoor bar table and stool"
@@ -322,7 +323,7 @@ export default function page() {
         </article>
         <article className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow items-start text-black max-md:mt-8">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/98ba6cbfeda5cc022b59ca90b6963265f350d88d9b5c0875da2c405d6d7e843c?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Plain console with teak mirror"

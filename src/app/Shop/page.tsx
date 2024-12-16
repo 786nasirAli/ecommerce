@@ -27,7 +27,7 @@ export default function page() {
                 >
                   {/* Logo */}
                   <div className="mb-4">
-                    <img src="/triangle.png" alt="Logo" className="w-16 h-16" />
+                    <Image src="/triangle.png" alt="Logo" className="w-16 h-16" />
                   </div>
                   {/* Text */}
                   <h1 className="font-bold text-3xl ">Shop</h1>
@@ -85,7 +85,7 @@ export default function page() {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c1-removebg-preview.png"
@@ -103,7 +103,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c2-removebg-preview.png"
@@ -121,7 +121,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c3-removebg-preview.png"
@@ -139,7 +139,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c4-removebg-preview.png"
@@ -157,7 +157,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c5-removebg-preview.png"
@@ -175,7 +175,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c6-removebg-preview.png"
@@ -193,7 +193,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c7-removebg-preview.png"
@@ -211,7 +211,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c8-removebg-preview.png"
@@ -233,7 +233,7 @@ export default function page() {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c9-removebg-preview.png"
@@ -251,7 +251,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c10-removebg-preview.png"
@@ -269,7 +269,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="11.png"
@@ -287,7 +287,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c12-removebg-preview.png"
@@ -305,7 +305,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c18-removebg-preview.png"
@@ -323,7 +323,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c14-removebg-preview.png"
@@ -341,7 +341,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="16.png"
@@ -359,7 +359,7 @@ export default function page() {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <Link className="block relative h-48 rounded overflow-hidden" href={""}>
-          <img
+          <Image
             alt="ecommerce"
             className="object-cover object-center w-full h-full block"
             src="c19-removebg-preview.png"

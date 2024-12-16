@@ -1,11 +1,11 @@
 import Link from 'next/link'; // Import Link from Next.js
-
+import Image from 'next/image';
 export default function Page() {
   return (
     <div>
       <div className="flex overflow-hidden flex-col bg-white">
   
-        <img
+        <Image
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/287d9f2907fc8e14ce88592f6e6d5cbbdba7cc14b50cc56e091c4ed53aaeaf69?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
           alt="Decorative banner image"

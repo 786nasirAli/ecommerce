@@ -1,19 +1,20 @@
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
 export default function page() {
   return (
     <div>
       <div className="flex overflow-hidden flex-col bg-white min-h-screen">
  
   <div className="relative flex flex-col justify-center items-center px-4 md:px-20 py-12 md:py-20 w-full min-h-[250px] md:min-h-[328px]">
-    <img
+    <Image
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b9471c138bb0140fa09bc8edbd058043b6e05bfdbf02ed2b647c22f3e0ea70c?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
       alt="Hero background"
       className="absolute inset-0 w-full h-full object-cover"
     />
     <div className="relative z-10 flex flex-col items-center">
-      <img
+      <Image
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/a25832707a00a1cfc0900c87060899e75d14639a394bddb695d7b30e8c11da86?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
         alt="Blog icon"
@@ -26,7 +27,7 @@ export default function page() {
         <Link href="#" className="font-medium hover:underline">
           Home
         </Link>
-        <img
+        <Image
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
           alt=""
@@ -41,7 +42,7 @@ export default function page() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
         <article className="md:col-span-8">
           <div className="flex flex-col gap-4">
-            <img
+            <Image
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/4afabaa3dd6fda83227fb086cb291079c2a734262400f70b0fb72d5dfbbc124a?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
               alt="Featured post"
@@ -49,7 +50,7 @@ export default function page() {
             />
             <div className="flex flex-wrap gap-4 md:gap-9 text-base text-neutral-400">
               <div className="flex items-center gap-2">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/550af8fe8d3569c905bc89f8da97869dc119a36d1c9871800dfcae0b077f8161?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                   alt=""
@@ -58,7 +59,7 @@ export default function page() {
                 <span>Admin</span>
               </div>
               <div className="flex items-center gap-3">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/604e35a3f9cceed299ce23b9efa6bcc148621f7926d5573a2002cbc47c39a836?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                   alt=""
@@ -67,7 +68,7 @@ export default function page() {
                 <time dateTime="2022-10-14">14 Oct 2022</time>
               </div>
               <div className="flex items-center gap-2">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/c73485e3d4cf3769373a247701e810410718cea2390fae219421065734938dcb?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                   alt=""
@@ -92,7 +93,7 @@ export default function page() {
                 aria-label="Search"
                 className="absolute right-6 top-1/2 -translate-y-1/2"
               >
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/56fd1f640dda4ae9d14a4fe62dd99ad59f54c2ae151d9b74d5632d15b45ec621?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                   alt=""
@@ -168,7 +169,7 @@ export default function page() {
             </h2>
             <ul className="flex flex-col gap-6">
               <li className="flex gap-4">
-                <img
+                <Image
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/668611e17e140f17dac0dffb5d00b221c0c8ced4e84fb89fcc8a2b4e994b1c12?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
                   alt=""

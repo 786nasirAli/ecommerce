@@ -26,7 +26,7 @@ export default function Contact() {
           >
             {/* Logo */}
             <div className="mb-4">
-              <img src="/triangle.png" alt="Logo" className="w-16 h-16" />
+              <Image src="/triangle.png" alt="Logo" className="w-16 h-16" />
             </div>
             {/* Text */}
             <h1 className="font-bold text-3xl ">Contact</h1>
