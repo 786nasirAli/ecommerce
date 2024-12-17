@@ -18,9 +18,11 @@ export default function page() {
     </Link>
     <Image
       loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+      src="/r.png"
       alt=""
       className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
+      width={20}
+      height={20}
     />
     <Link
       href="#"
@@ -30,9 +32,11 @@ export default function page() {
     </Link>
     <Image
       loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+      src="/r.png"
       alt=""
       className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
+      width={20}
+      height={20}
     />
     <div
       className="shrink-0 self-start w-0.5 border-2 border-solid border-neutral-400 h-[37px]"
@@ -48,9 +52,11 @@ export default function page() {
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <Image
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/219fef56aee837c5804022740f4acce9430e35e81f9e83bbbb7ec919233c0777?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+            src="/sit.png"
             alt="Asgaard sofa main product image"
             className="object-contain w-full rounded-none aspect-[1.11] max-md:mt-10 max-md:max-w-full"
+            width={450}
+            height={450}
           />
         </div>
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
@@ -62,9 +68,11 @@ export default function page() {
             <div className="flex gap-5 items-center mt-2.5 text-sm text-neutral-400">
               <Image
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b716153d96851be343bafc84fd9ddc859debe5a756855bb838c029e08b61309?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                src="/star.svg"
                 alt="5 star rating"
                 className="object-contain shrink-0 self-stretch my-auto max-w-full aspect-[6.21] w-[124px]"
+                width={60}
+                height={20}
               />
               <div
                 className="shrink-0 self-stretch w-px border border-solid border-neutral-400 h-[30px]"
@@ -177,25 +185,31 @@ export default function page() {
                   <Link href="#" aria-label="Share on Facebook">
                     <Image
                       loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/629ecd29b6e1311788a917840a9db258106da010af82b53429c41a97f3d3eefe?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                      src="/face.svg"
                       alt=""
                       className="object-contain shrink-0 self-start mt-1 w-5 aspect-square"
+                      width={20}
+                      height={20}
                     />
                   </Link>
                   <Link href="#" aria-label="Share on LinkedIn">
                     <Image
                       loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/bd126b32a2490780bdbd7b6c47a37596813a2a663890cc8d3c1c852a5ce81336?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                      src="/link.svg"
                       alt=""
                       className="object-contain shrink-0 my-auto w-5 aspect-square"
+                      width={20}
+                      height={20}
                     />
                   </Link>
                   <Link href="#" aria-label="Share on Twitter">
                     <Image
                       loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac547bd4addefd8e4b2d50f2cd114a8157c1961189437cc9486cc350f82eadb2?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                      src="/twitter.svg"
                       alt=""
                       className="object-contain shrink-0 aspect-square w-[25px]"
+                      width={20}
+                      height={20}
                     />
                   </Link>
                 </div>
@@ -203,9 +217,11 @@ export default function page() {
               <Link href="#" aria-label="Share on Instagram">
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/74103b59eddb809277f2f1c90b0f6fe6242321fb50015d603656eb0cb18ded6d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                  src="/heart.svg"
                   alt=""
                   className="object-contain shrink-0 aspect-[0.81] w-[25px]"
+                  width={20}
+                  height={20}
                 />
               </Link>
             </div>
@@ -265,15 +281,19 @@ export default function page() {
       <div className="flex gap-5 max-md:flex-col">
         <Image
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/69cbd14de16cbcd9c46f124f640bc4f76db0b620544f981ecfd2a7b24c99a151?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+          src="/st.png"
           alt="Product detail image 1"
           className="object-contain w-[50%] rounded-none aspect-[1.74] max-md:mt-7 max-md:w-full"
+          width={500}
+          height={400}
         />
         <Image
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/d6bde0de39d7b7cfe4a083430a912eecded21f029872d011e19531d8d88c8871?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+          src="/st2.png"
           alt="Product detail image 2"
           className="object-contain w-[50%] rounded-none aspect-[1.74] max-md:mt-7 max-md:w-full"
+          width={500}
+          height={400}
         />
       </div>
     </div>
@@ -287,9 +307,11 @@ export default function page() {
           <div className="flex flex-col items-start text-black max-md:mt-8">
             <Image
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5a077f92fd46575a030faeed1a15e49321589598aaa57f7b9d014c3e0e8de828?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+              src="/st3.png"
               alt="Trenton modular sofa_3"
               className="object-contain self-stretch w-full rounded-none aspect-square"
+              width={300}
+              height={300}
             />
             <h3 className="mt-3.5 text-base">Trenton modular sofa_3</h3>
             <p className="mt-3 text-2xl font-medium">Rs. 25,000.00</p>
@@ -299,9 +321,11 @@ export default function page() {
           <div className="flex flex-col grow items-start text-black max-md:mt-8">
             <Image
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/43f827a16b96cc493c71f16a8bed4d9b4e559c569296a38f33bb59d52de4f4f0?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+              src="/s4.png"
               alt="Granite dining table with dining chair"
               className="object-contain self-stretch w-full rounded-none aspect-square"
+              width={300}
+              height={300}
             />
             <h3 className="mt-3.5 text-base">
               Granite dining table with dining chair
@@ -313,9 +337,11 @@ export default function page() {
           <div className="flex flex-col grow items-start text-black max-md:mt-8">
             <Image
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/0daa4f02e085c7e050b601337521698dafe24a3690868f748f74a979daac7c1d?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+              src="/s5.png"
               alt="Outdoor bar table and stool"
               className="object-contain self-stretch w-full rounded-none aspect-square"
+              width={300}
+              height={300}
             />
             <h3 className="mt-3.5 text-base">Outdoor bar table and stool</h3>
             <p className="mt-3 text-2xl font-medium">Rs. 25,000.00</p>
@@ -325,9 +351,11 @@ export default function page() {
           <div className="flex flex-col grow items-start text-black max-md:mt-8">
             <Image
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/98ba6cbfeda5cc022b59ca90b6963265f350d88d9b5c0875da2c405d6d7e843c?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+              src="/s6.png"
               alt="Plain console with teak mirror"
               className="object-contain self-stretch w-full rounded-none aspect-square"
+              width={300}
+              height={300}
             />
             <h3 className="mt-3.5 text-base">Plain console with teak mirror</h3>
             <p className="mt-3 text-2xl font-medium">Rs. 25,000.00</p>

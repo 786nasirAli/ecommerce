@@ -7,9 +7,11 @@ export default function Page() {
   
         <Image
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/287d9f2907fc8e14ce88592f6e6d5cbbdba7cc14b50cc56e091c4ed53aaeaf69?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+          src="/my.png"
           alt="Decorative banner image"
           className="object-contain w-full aspect-[4.57] max-md:max-w-full"
+          width={1440}
+          height={450}
         />
         <div className="px-20 py-16 w-full bg-white max-md:px-5 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col">

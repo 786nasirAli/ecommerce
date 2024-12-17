@@ -1,5 +1,5 @@
 import Link from "next/link"; // Already imported
-
+import Image from "next/image";
 const Navbar = () => {
     return (
         <div>
@@ -18,19 +18,19 @@ const Navbar = () => {
                                     Home
                                 </Link>
                                 <Link
-                                    href="/shop"
+                                    href="/Shop"
                                     className="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors duration-200"
                                 >
                                     Shop
                                 </Link>
                                 <Link
-                                    href="/about"
+                                    href="/About"
                                     className="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors duration-200"
                                 >
                                     About
                                 </Link>
                                 <Link
-                                    href="/contact"
+                                    href="/Contact"
                                     className="hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition-colors duration-200"
                                 >
                                     Contact
@@ -38,11 +38,13 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="flex justify-center sm:justify-start w-full sm:w-[36%]">
-                            <img
+                            <Image
                                 loading="lazy"
-                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2fcffb35dbc9faa0bad78c86778598d525fab36eb1f3e61123c7105e0b5fd2f8?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                                src="/nav.svg"
                                 alt="Company logo"
                                 className="object-contain w-[180px] sm:w-[247px] aspect-[8.85]"
+                                width={480}
+                                height={100}
                             />
                         </div>
                     </div>

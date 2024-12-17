@@ -9,16 +9,20 @@ export default function page() {
   <div className="relative flex flex-col justify-center items-center px-4 md:px-20 py-12 md:py-20 w-full min-h-[250px] md:min-h-[328px]">
     <Image
       loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7b9471c138bb0140fa09bc8edbd058043b6e05bfdbf02ed2b647c22f3e0ea70c?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+      src="/1bg.png"
       alt="Hero background"
       className="absolute inset-0 w-full h-full object-cover"
+      width={1440}
+      height={316}
     />
     <div className="relative z-10 flex flex-col items-center">
       <Image
         loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a25832707a00a1cfc0900c87060899e75d14639a394bddb695d7b30e8c11da86?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+        src="/icon.png"
         alt="Blog icon"
         className="w-[115px] aspect-[0.8] object-contain mb-4"
+        width={60}
+        height={60}
       />
       <nav
         aria-label="Breadcrumb"
@@ -27,12 +31,8 @@ export default function page() {
         <Link href="#" className="font-medium hover:underline">
           Home
         </Link>
-        <Image
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/db13939cabd153a09de09c25864d1f622bda5d116dbe6552d6605aca283c27a4?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
-          alt=""
-          className="w-5 aspect-square"
-        />
+
+        
         <span className="font-light">Blog</span>
       </nav>
     </div>
@@ -44,35 +44,43 @@ export default function page() {
           <div className="flex flex-col gap-4">
             <Image
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/4afabaa3dd6fda83227fb086cb291079c2a734262400f70b0fb72d5dfbbc124a?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+              src="/feature.png"
               alt="Featured post"
               className="w-full rounded-xl aspect-[1.63] object-cover"
+              width={600}
+              height={400}
             />
             <div className="flex flex-wrap gap-4 md:gap-9 text-base text-neutral-400">
               <div className="flex items-center gap-2">
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/550af8fe8d3569c905bc89f8da97869dc119a36d1c9871800dfcae0b077f8161?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                  src="/men.svg"
                   alt=""
                   className="w-5 aspect-square"
+                  width={20}
+                  height={20}
                 />
                 <span>Admin</span>
               </div>
               <div className="flex items-center gap-3">
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/604e35a3f9cceed299ce23b9efa6bcc148621f7926d5573a2002cbc47c39a836?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                  src="/box.svg"
                   alt=""
                   className="w-5 aspect-square"
+                  width={20}
+                  height={20}
                 />
                 <time dateTime="2022-10-14">14 Oct 2022</time>
               </div>
               <div className="flex items-center gap-2">
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/c73485e3d4cf3769373a247701e810410718cea2390fae219421065734938dcb?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                  src="/pin.svg"
                   alt=""
                   className="w-6 aspect-square"
+                  width={0}
+                  height={20}
                 />
                 <span>Wood</span>
               </div>
@@ -95,9 +103,11 @@ export default function page() {
               >
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/56fd1f640dda4ae9d14a4fe62dd99ad59f54c2ae151d9b74d5632d15b45ec621?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                  src="/search.png"
                   alt=""
                   className="w-6 aspect-square"
+                  width={20}
+                  height={20}
                 />
               </button>
             </form>
@@ -171,9 +181,11 @@ export default function page() {
               <li className="flex gap-4">
                 <Image
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/668611e17e140f17dac0dffb5d00b221c0c8ced4e84fb89fcc8a2b4e994b1c12?placeholderIfAbsent=true&apiKey=9f8497ec23da4379accd30975a8ae232"
+                  src="/page.png"
                   alt=""
                   className="w-20 h-20 rounded-xl object-cover"
+                  width={40}
+                  height={40}
                 />
                 <div className="flex flex-col justify-center">
                   <Link href="#" className="text-sm text-black hover:underline">
