@@ -25,7 +25,7 @@ export default function Cart() {
           >
             {/* Logo */}
             <div className="mb-4">
-              <Image src="/icob.png" alt="Logo" className="w-16 h-16" width={40} height={40} />
+              <Image src="/triangle.png" alt="Logo" className="w-16 h-16" width={40} height={40} />
             </div>
             {/* Text */}
             <h1 className="font-bold text-3xl ">Cart</h1>

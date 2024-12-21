@@ -15,7 +15,7 @@ export default function Home() {
                 Rocket single seater
               </h1>
               <button className="text-xl md:text-2xl hover:underline focus:ring-2 focus:ring-black focus:outline-none px-4 py-2">
-                Shop Now
+                <Link href="/Shop">Shop Now</Link>
               </button>
               <div className="h-0.5 w-[121px] border-2 border-black mx-auto md:mx-0 mt-4" />
             </div>
